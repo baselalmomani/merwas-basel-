@@ -1,0 +1,68 @@
+.section-services{
+    margin-top: 240px;
+}
+.services-title {
+    margin-bottom: 60px;
+}
+.services-title h2{
+    text-align: center;
+    font-size: 48px;
+    color: #3F485E;
+}
+.services-title p{
+    text-align: center;
+    color: #77838F;
+    font-size: 19px;
+    max-width: 495px;
+    margin: 32px auto 0;
+    line-height: 30px;
+}
+.services-body .body-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #3F485E;
+    padding: 80px 155px 80px 53px;
+    border-bottom-left-radius: 75px;
+    gap: 80px;
+}
+.services-body{
+    position: relative;
+    right: -85px;
+}
+.services-body .body-block .text h4{
+    font-size: 40px;
+    line-height: 72px;
+    color: #EB6B2A;
+}
+.services-body .body-block .text p{
+    color: #FFF;
+    font-size: 16px;
+    line-height: 40px;
+}
+.block, .block-reverse{
+    margin-bottom: 23px;
+}
+.block-reverse .body-block{
+    background: transparent;
+}
+.block-reverse .body-block .text h4{
+    color: #3F485E;
+}
+.block-reverse .body-block .text p{
+    color: #163C67;
+}
+.block-reverse .services-body .body-block{
+    flex-direction: row-reverse; 
+}
+.block.second .services-body,
+.block-reverse.second .services-body{
+    right: unset;
+    left: -85px;
+}
+.block.second .services-body .body-block,
+.block-reverse.second .services-body .body-block{
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius: 75px;
+    padding: 80px 53px 80px 155px;
+}

@@ -1,0 +1,19 @@
+.banner{
+    width: 100%;
+    height: 701px;
+    background: url(/_next/static/media/main-banner.f6a5ca62.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.banner h1{
+    color: #FFF;
+    font-size: 33px;
+    max-width: 746px;
+    padding-left: 170px;
+    line-height: 76px;
+}
+.banner h1 span{
+    color: #EB6B2A
+}

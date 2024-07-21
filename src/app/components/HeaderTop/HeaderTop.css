@@ -1,0 +1,39 @@
+.container1{
+    height: 53px;
+    width: 100%;
+    background: #FFF;
+    padding-right: 60px;
+}
+.container1 nav{
+    height: 100%;
+    width: 100%;
+}
+.container1 nav ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 5px;
+}
+.container1 nav ul li{
+    list-style: none;
+}
+.container1 nav ul li a{
+    border: 2px solid transparent;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ease;
+}
+.container1 nav ul li a:hover{
+    border-color: #E7E7EC;
+}
+.container1 nav ul li a img{
+    transition: 0.2s ease;
+}
+.container1 nav ul li a:hover img{
+    filter: brightness(75%);
+}

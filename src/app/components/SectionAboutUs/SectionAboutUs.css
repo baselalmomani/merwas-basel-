@@ -1,0 +1,103 @@
+.section-about-us{
+    margin-top: 220px;
+}
+.section-title h2{
+    text-align: center;
+    font-size: 48px;
+    color: #3F485E;
+}
+.section-title p{
+    text-align: center;
+    color: #77838F;
+    font-size: 19px;
+    max-width: 495px;
+    margin: 32px auto 0;
+    line-height: 30px;
+}
+.our-website{
+    display: flex;
+    align-items: start;
+    justify-self: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 115px;
+}
+.our-website-image{
+    width: 35%;
+}
+.our-website-body{
+    width: 65%;
+}
+.our-website-body h3{
+    font-size: 50px;
+    color: #EB6B2A;
+    margin-bottom: 50px;
+}
+.our-website-body p{
+    font-size: 31px;
+    color: #3F485E;
+}
+.our-website-body ul li p{
+    font-size: 14px;
+    color: #3F485E;
+    letter-spacing: 0.3px;
+    max-width: 345px;
+}
+.our-website-body ul{
+    margin-top: 90px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 50px;
+}
+.our-website-body ul li{
+    list-style: none;
+    width: 45%;
+}
+.our-website-body ul li h4{
+    font-size: 20px;
+    color: #3F485E;
+    position: relative;
+    margin-bottom: 30px;
+}
+.our-website-body ul li:first-child h4::before{
+    content: '';
+    background: url(../../../../public/images/icons/Fostering-bf.png) no-repeat;
+    position: absolute;
+    left: -48px;
+    top: 0;
+    width: 36px;
+    height: 36px;
+    background-size: contain;
+}
+.our-website-body ul li:nth-child(2) h4::before{
+    content: '';
+    background: url(../../../../public/images/icons/Promoting-bf.png) no-repeat;
+    position: absolute;
+    left: -48px;
+    top: 0;
+    width: 36px;
+    height: 36px;
+    background-size: contain;
+}
+.our-website-body ul li:nth-child(3) h4::before{
+    content: '';
+    background: url(../../../../public/images/icons/Mission-bf.png) no-repeat;
+    position: absolute;
+    left: -48px;
+    top: 0;
+    width: 36px;
+    height: 36px;
+    background-size: contain;
+}
+.our-website-body ul li:nth-child(4) h4::before{
+    content: '';
+    background: url(../../../../public/images/icons/Vision-bf.png) no-repeat;
+    position: absolute;
+    left: -48px;
+    top: 0;
+    width: 36px;
+    height: 36px;
+    background-size: contain;
+}

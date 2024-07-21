@@ -1,0 +1,25 @@
+.video-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+    background: #3F485E;
+    width: 88%;
+    max-width: 1440px;
+    margin: 130px auto 0;
+    padding: 83px 110px;
+    border-radius: 25px;
+}
+.video-section .video video{
+    width: 555px;
+    height: 450px;
+    border-radius: 20px;
+}
+.video-body p{
+    font-size: 30px;
+    color: #FFF;
+    line-height: 46px;
+}
+.video-body p span{
+    color: #EE8E00;
+}

@@ -1,0 +1,97 @@
+.footer{
+    margin-top: 60px;
+    background: #3F485E;
+    padding-top: 55px;
+}
+.footer h2{
+    text-align: center;
+    font-size: 35px;
+    color: #FFF;
+}
+.footer p{
+    text-align: center;
+    color: #FFF;
+    font-size: 16px;
+    margin: 32px auto 40px;
+    line-height: 30px;
+}
+.footer form .mail {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+}
+.footer form .mail label{
+    font-size: 16px;
+    color: #FFF;
+    line-height: 30px;
+}
+.footer form .mail input{
+    width: 507px;
+    height: 60px;
+    border: 1px solid #E7E7EC;
+    background-color: #FFF;
+    color: #000;
+    border-radius: 65px;
+}
+.footer form {
+    display: flex;
+    justify-content: center;
+}
+.footer form .mail button{
+    width: 180px;
+    height: 60px;
+    background: #858585;
+    color: #FFF;
+    position: absolute;
+    right: -1px;
+    top: 35px;
+    border-radius: 65px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.footer form .mail button:hover{
+    background: #EB6B2A;
+}
+.footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.footer ul li{
+    width: fit-content;
+    padding: 0;
+    list-style: none;
+}
+.footer ul li a{
+    border: 2px solid transparent;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ease;
+}
+.footer ul li a:hover{
+    border-color: #E7E7EC;
+}
+.footer ul li a:hover img{
+    filter: brightness(100%);
+}
+.copy-right{
+    max-width: 1170px;
+    margin: auto;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding-top: 44px;
+    padding-bottom: 34px;
+    margin-top: 170px;
+}
+.copy-right p{
+    margin: 0;
+    text-align: start;
+    font-size: 13px;
+    color: #FFF;
+}

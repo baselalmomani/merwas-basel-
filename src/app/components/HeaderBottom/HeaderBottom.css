@@ -1,0 +1,71 @@
+.container2{
+    height: 100px;
+    background: #3F485E;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px 0 50px;
+}
+.logo-col a{
+    height: 100%;
+    display: block;
+}
+.menu-col ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.menu-col ul li{
+    list-style: none;
+}
+.menu-col ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFF;
+    border-top: 2px solid transparent;
+    padding-top: 9px;
+    transition: 0.3s ease;
+}
+.menu-col ul li a:hover{
+    border-color: #EB6B2A;
+    color: #EB6B2A;
+}
+.login-col ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.login-col ul li{
+    list-style: none;
+}
+.login-col ul li a{
+    padding: 0;
+    background: #FFF;
+    color: #173E62;
+    border: 2px solid #FFF;
+    border-radius: 30px;
+    width: 127px;
+    height: 48px;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
+}
+.login-col ul li a:hover{
+    background: transparent;
+    color: #FFF;
+}
+.login-col ul li:nth-child(2) a{
+    background-color: transparent;
+    color: #FFF;
+    width: 115px;
+}
+.login-col ul li:nth-child(2) a:hover{
+    background: #FFF;
+    color: #173E62;
+}
